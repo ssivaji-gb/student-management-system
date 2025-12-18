@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    min-height: 100vh;
+}
+
+.form{
+    background: #ffffff;
+    padding: 20px 25px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.form label{
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form input{
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.form input:focus{
+    border-color: #007bff;
+}
+
+.submit-btn{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-btn:hover{
+    background: #0056b3;
+}
+.list{
+    width: ;
+}
+
+.list li{
+    list-style: none;
+    display: flex;             
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.list h4{
+    font-size: 13px;
+    margin: 0;
+    color: #333;
+    flex: 1;                    
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+<form class="form">
+  <label>Name</label>
+  <input type="text" class="name" required>
+
+  <label>Mark1</label>
+  <input type="number" class="m1" min="0" max="100" required>
+
+  <label>Mark2</label>
+  <input type="number" class="m2" min="0" max="100" required>
+
+  <label>Mark3</label>
+  <input type="number" class="m3" min="0" max="100" required>
+
+  <label>Mark4</label>
+  <input type="number" class="m4" min="0" max="100" required>
+
+  <label>Mark5</label>
+  <input type="number" class="m5" min="0" max="100" required>
+
+  <button type="submit" class="submit-btn">Submit</button>
+</form>
+
+<ul class="list">
+  <li>
+    <h4>Name</h4>
+    <h4>Marks</h4>
+    <h4>Total</h4>
+    <h4>Average</h4>
+    <h4>Grade</h4>
+  </li>
+</ul>
+
+  <script src="sivaji_student_management_system.js">
+
+  </script>   
+</body>
+</html>
